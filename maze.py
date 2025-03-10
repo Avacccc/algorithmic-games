@@ -33,17 +33,11 @@ def explore(maze, visited, stack, ex):
     #if did not reach the end and there is not any new availabe neighbour return none
     return None
         
-maze = [
-            [0, 1, 0, 0],
-            [0, 1, 1, 0],
-            [0, 1, 1, 0],
-            [1, 0, 0, 0]
-           ]
-
-
-start = (0, 0)
-end = (3, 3)
-# Expected Path: [(0, 0), (1, 0), (2, 0), (2, 1), (2, 2), (3, 2), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (5, 6), (6, 6)]
+        
+maze = []
+start = ()
+end = ()
+# Expected Path: []
 
 
 
